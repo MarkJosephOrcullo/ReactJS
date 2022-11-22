@@ -1,0 +1,10 @@
+.background {
+    background-image: url("/images/wave.jpg");
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 36px;
+    color: white;
+}

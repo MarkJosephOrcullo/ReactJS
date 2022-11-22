@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    background-color: #3CCFAF;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarActions {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}

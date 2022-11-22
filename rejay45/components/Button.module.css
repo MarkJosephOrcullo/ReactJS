@@ -1,0 +1,13 @@
+.primary {
+    width: 140px;
+    height: 60px;
+    color: #072859;
+    border: #3CCFAF;
+    background-color: #3CCFAF;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.primary:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+.body {
+    background-color: #072859;
+    margin: 0px;
+    padding: 0;
+}
+
+.container {
+    margin: 36px;
+    display: flex;
+}
+
+.container>h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 0;
+    max-width: 700px;
+}
+
+.container>h2 {
+    font-size: 131px;
+    line-height: 1;
+    margin-bottom: 0;
+    max-width: 700px;
+}
