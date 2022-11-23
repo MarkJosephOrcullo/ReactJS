@@ -4,9 +4,58 @@
     padding: 20;
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: 80vh;
+    align-items: center;
 }
 
-.container {}
+.container {
+    color: #54D9BC;
+    width: 600px;
+    display: grid;
+    grid-row-gap: 20px;
+    height: 90%;
+}
 
-.label {}
+.label>h2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    /* margin: 0; */
+}
+
+.label1 {
+    color: #54D9BC;
+}
+
+.lagayan1 {
+    height: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.button1 {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    background-color: #54D9BC;
+    color: #072859;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* . {
+    width: 100px;
+    height: 300px;
+} */
+
+
+/* .button>h3 {
+    font-size: 100px;
+    color: black;
+}
+
+.button>img {}
+
+.button1 {} */

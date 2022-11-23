@@ -1,4 +1,6 @@
 import styles from "./Hero.module.css";
+import Button from "./Button";
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -14,8 +16,14 @@ const Hero = () => {
                         <p>as we design your way into Business Prosper based on your marketing strategy, 
             business needs, and target audience.
                         </p>
+                    <div claasName={styles.button}>  
+                        <Button>Learn More</Button>
+                        </div>      
                     </div>
                 </div>
+               
+                     
+
             </div>
         </div>
     )

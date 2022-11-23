@@ -3,6 +3,7 @@ import AboutUs from "../components/AboutUs";
 import Hero from '../components/Hero'
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
+import dulo from "../components/dulo";
 
 
 export default function Home() {
@@ -20,6 +21,8 @@ export default function Home() {
         AboutUs / >
         <
         Services / >
+        <
+        dulo />
 
         <
         /div>)
