@@ -51,7 +51,6 @@
     text-align: right;
     width: 100%;
     margin: 0;
-    border: 1px solid red;
 }
 
 .label>h1 {
@@ -81,7 +80,6 @@
 }
 
 .image>img {
-    /* border: 1px solid blue; */
     width: 400px;
     height: auto;
 }
@@ -94,13 +92,18 @@
         height: fit-content;
     }
     .container {
-        width: 100%;
+        width: 95%;
         display: grid;
     }
     .image>img {
-        /* border: 1px solid blue; */
         width: 300px;
         height: auto;
+    }
+    .label {
+        margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
     }
     /* mga sulat */
     .label>h1 {
@@ -114,6 +117,15 @@
     }
     .button>button {
         width: 30%;
-        height: 50px;
+        height: 40px;
+        align-self: center;
+    }
+    .linya {
+        align-self: center;
+        width: 100%;
+    }
+    .image>img {
+        width: 250px;
+        height: auto;
     }
 }
