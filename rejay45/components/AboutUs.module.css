@@ -24,7 +24,7 @@
 }
 
 .abtus {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     display: grid;
     grid-row-gap: 10px;

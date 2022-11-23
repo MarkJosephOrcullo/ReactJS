@@ -1,0 +1,12 @@
+.body {
+    background-color: #072859;
+    margin: 0px;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.container {}
+
+.label {}

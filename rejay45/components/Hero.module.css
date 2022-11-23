@@ -10,53 +10,54 @@
 .container {
     display: flex;
     width: 80%;
-    border: 1px solid red;
+    margin-bottom: auto;
+    /* border: 1px solid red; */
 }
 
 .labelbox {
     display: flex;
     align-items: flex-end;
     margin: 0;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .label {
     display: grid;
     text-align: right;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 0;
 }
 
 .label>h1 {
     font-size: 131px;
     color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
 }
 
 .label>h2 {
     font-size: 50px;
     color: #54D9BC;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
 }
 
 .label>p {
     font-size: 30px;
     color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
 }
 
 .image {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image>img {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 625px;
     height: 650px;
 }
