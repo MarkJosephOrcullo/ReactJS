@@ -1,4 +1,4 @@
-import styles from "./"
+import styles from "./dulo.module.css"
 
 const dulo = () => {
     return (

@@ -3,12 +3,24 @@
     background-color: #3CCFAF;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
+    color: #072859;
+    border: 1px solid red;
+    position: sticky;
+    z-index: 0;
+    top: 0;
 }
 
 .navbarActions {
+    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    gap: 100px;
+    width: 80%;
+}
+
+.navbarActions>a {
+    display: flex;
+    align-items: center;
 }

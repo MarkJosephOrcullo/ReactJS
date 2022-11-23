@@ -6,9 +6,9 @@ const Navbar = () => {
     return (
       <div className={styles.container}>
         <div className={styles.navbarActions}>
-          <Button variant="primary">Services</Button>
-          <img src="/images/Rejay45.png" width="140" height="60"/>
-          <Button variant="primary">About Us</Button>
+          <a href="#">Services</a>
+          <img src="/images/Rejay45.png" width="80" height="auto"/>
+          <a href="#">About</a>
         </div>
       </div>
     );
