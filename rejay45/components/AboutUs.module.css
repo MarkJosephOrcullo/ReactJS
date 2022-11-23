@@ -1,10 +1,53 @@
 .background {
-    background-image: url("/images/wave.jpg");
+    background-image: url("/images/wave.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     display: flex;
     align-items: center;
     padding: 36px;
-    color: white;
+    width: 80%;
+    height: 80%;
+    background: rgba( 255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 0px);
+    -webkit-backdrop-filter: blur( 0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    gap: 15px;
+}
+
+.abtus {
+    border: 1px solid red;
+    height: 100%;
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+.abtuspic {
+    border: 1px solid red;
+}
+
+.abtuspic>img {
+    height: 500px;
+    width: 600px;
+}
+
+.abtus>h2 {
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+
+.abtus>p {
+    font-size: 25px;
+    color: black;
+    margin: 0;
+    text-align: justify;
 }
