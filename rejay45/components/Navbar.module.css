@@ -5,14 +5,12 @@
     align-items: center;
     font-size: 15px;
     color: #072859;
-    border: 1px solid red;
     position: sticky;
     z-index: 0;
     top: 0;
 }
 
 .navbarActions {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-content: center;
