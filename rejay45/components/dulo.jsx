@@ -1,10 +1,10 @@
-import styles from "./dulo.module.css"
+import styles from "./Dulo.module.css"
 
-const dulo = () => {
+const Dulo = () => {
     return (
         <div className={styles.body}>
 
         </div>
     )
 }
-export default dulo;
+export default Dulo;
