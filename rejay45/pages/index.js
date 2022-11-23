@@ -3,7 +3,6 @@ import AboutUs from "../components/AboutUs";
 import Hero from '../components/Hero'
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
-import dulo from "../components/Dulo";
 import Dulo from "../components/Dulo";
 
 

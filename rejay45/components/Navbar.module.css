@@ -6,17 +6,19 @@
     font-size: 15px;
     color: #072859;
     position: sticky;
-    z-index: 0;
+    z-index: 1;
     top: 0;
+    box-shadow: 2px 6px 46px -10px rgba(0, 0, 0, 0.75);
 }
 
 .navbarActions {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 100px;
+    gap: 70px;
     width: 80%;
     margin: 10px 0 10px 0;
+    font-weight: 500;
 }
 
 .navbarActions>a {
