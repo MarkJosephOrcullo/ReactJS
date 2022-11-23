@@ -13,11 +13,12 @@ const Hero = () => {
                     <div className={styles.label}>
                         <h2>WE LEAD IN</h2>
                         <h1>Creativity</h1>
+                        <div className={styles.linya}></div>
                         <p>as we design your way into Business Prosper based on your marketing strategy, 
             business needs, and target audience.
                         </p>
-                    <div claasName={styles.button}>  
-                        <Button>Learn More</Button>
+                        <div className={styles.button}>  
+                            <button>Learn More</button>
                         </div>      
                     </div>
                 </div>
